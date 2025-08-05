@@ -4,22 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Flex Layout</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
-    <header>
-      <h1>Odin Flex Layout</h1>
+    <header class="layout darkblue-background">
+      <nav>
+        <a class="header-logo" href="/">Golden Retriever</a>
+        <ul class="header-links">
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Golden_Retriever"
+              >Wikipedia</a
+            >
+          </li>
+          <li>
+            <a href="https://www.akc.org/dog-breeds/golden-retriever/"
+              >American Kennel Club</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.chewy.com/education/dog-breeds/golden-retriever"
+              >Chewy</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-      <section class="flex-container">
-        <div class="flex-item">Item 1</div>
-        <div class="flex-item">Item 2</div>
-        <div class="flex-item">Item 3</div>
-        <div class="flex-item">Item 4</div>
+      <section class="layout darkblue-background hero-carousal">
+        <div>
+          <h1 class="zero-margin">
+            Blessed is the person who earned the love of a Golden Retriever.
+          </h1>
+          <p>
+            Known for their happy-go-lucky attitude, Golden Retrievers just want
+            to have fun—and take you along for the ride. Bright and adaptable,
+            these long-haired pups do well with pet parents who prioritize love
+            and attention and don’t mind a Golden’s adorably goofy antics.
+          </p>
+          <button>Learn More</button>
+        </div>
+
+        <div>
+          <img
+            src="https://placehold.co/600x400"
+            alt="Just a Placeholder image"
+          />
+        </div>
+      </section>
+
+      <section>
+        <h2>Traits of Golden Retriever</h2>
+        <div>
+          <img src="https://placehold.co/150x150" />
+          <p>Affectionate with family</p>
+        </div>
+        <div>
+          <img src="https://placehold.co/150x150" />
+          <p>Good with young children</p>
+        </div>
+        <div>
+          <img src="https://placehold.co/150x150" />
+          <p>Always Mr.Curious</p>
+        </div>
+        <div>
+          <img src="https://placehold.co/150x150" />
+          <p>Super Easy to Train</p>
+        </div>
+      </section>
+
+      <section>
+        <blockquote>
+          <p>
+            she dropped a £10 note on the floor in the bank. A man tried to pick
+            it up for her, but Orca put a paw on it and refused to move until
+            the man had backed off. Then he picked it up and passed it [to her]
+            himself.
+          </p>
+          <footer>- Cheryl, Orca's owner</footer>
+        </blockquote>
+      </section>
+
+      <section>
+        <div>
+          <h3>Are you Interested?</h3>
+          <p>
+            Go to our nearest pet store now to check on the beautiful Doggos!
+          </p>
+        </div>
+        <button>Locate Store!</button>
       </section>
     </main>
+
     <footer>
-      <p>&copy; 2023 Odin Project</p>
+      <p>Copyright &copy; The Odin Project 2021</p>
     </footer>
   </body>
 </html>
