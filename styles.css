@@ -127,6 +127,8 @@ main section.hero-carousal {
 }
 
 .information--items div img {
+  max-width: 100%;
+  height: auto;
   border: 5px solid #3882f6;
   border-radius: 10%;
 }
